@@ -14,18 +14,24 @@
                 "Over and under clock",
                 "Linux Kernel 3.10.92",
                 "Many custom CPU GOV optimized for Krait 450",
-                "CPU optimizations Schedule workqueues + CPU Boost + Wakeup Boost + Hotplug Boost",
+                "CPU optimizations",
+                "CPU Schedule workqueues",
+                "CPU Boost ",
+                "CPu Wakeup Boost and Hotplug Boost",
                 "CPU voltage control",
                 "Custom CPU Hotplug",
                 "Custom Termal control",
-                "GPU optimizations + GPU idling algorithm",
+                "GPU optimizations",
+                "GPU idling algorithm",
                 "KCAL - Advanced color",
                 "Sound control module",
-                "I/O Scheduler optimizations + many custom I/O",
+                "I/O Scheduler optimizations",
+                "Many custom I/O",
                 "KSM  kernel samepage merging",
                 "Fsync cotrol",
                 "Power suspend Mode, better deep sleep tool",
-                "Network optimizations + many custom TCP Cong algorithm"
+                "Network optimizations",
+                "Many custom TCP Cong algorithm"
             ]
         },
         {
@@ -42,7 +48,6 @@
                 "conservative",
                 "userspace",
                 "powersave",
-                "lionheart",
                 "performance"
             ]
         },
