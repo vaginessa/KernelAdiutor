@@ -1,67 +1,24 @@
 {
-  "name": "<b><font color=\"#FFFFFF\">777 Kernel</font></b>",
-  "short_description": "777 Kernel by <b>777jon</b>",
-  "long_description": "777jon’s Custom Kernel for AOSP Based Roms!",
-  "logo": "http://i.imgur.com/1Xiahvy.png",
-  "xda": "http://forum.xda-developers.com/lg-g3/development/kernel-777-kernel-t3003115",
-  "github": "https://github.com/777jon/g3_kernel/",
-  "google_plus": "https://plus.google.com/u/0/111494766276773526359",
+  "name": "<b><font color=\"#FFFFFF\">BHB27-Kernel</font></b>",
+  "short_description": "BHB27-Kernel by <b>BHB27 AKA baybutcher27</b>",
+  "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms",
+  "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
+  "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
+  "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
   "features": [
-    "Bumped",
-    "Linux 3.4.110",
-    "-O3 Optimized",
-    "Latest CM12.1 g3 patches",
-    "Latest Linux 3.4.x patches",
-    "Universal Kernel Control Support (Integrated into Kernel ZIP)",
-    "Synapse Support - Complete Kernel Control!",
-    "Anykernel Ramdisk Format (Compatible with all ROMS)",
-    "Built with latest Uber 5.2 Toolchain",
-    "Sweep2Sleep",
-    "CPU Overclock to 2.88Ghz",
-    "CPU Underclock to 268Mhz",
-    "Powersuspend 1.5 by @faux123",
-    "MSM_Hotplug, Intelliplug, and MSM_MPDecision (Bricked) all flavored by @neobuddy89",
-    "MSM_Limiter by @neobuddy89 - More like a Swiss army knife! adds Per-Core Functionality!",
-    "Alucard Touch Boost by @alucard_24",
-    "Intelli-Thermal v2 by @faux123",
-    "Intelliactive and IntelliMM from @faux123",
-    "Impulse Governor from @neobuddy89 - Interactive when needed, Conservative when not!",
-    "Alucard, Darkness, and Nightmare governors by @alucard_24",
-    "Smartmax, Interactive, Slim, Conservative, IntelliMM, Intelliactive, YankActive, Impulse,",
-    "ZZmoove, Powersave, Performance, Lionheart, Ondemand, Alucard, Darkness, Nightmare",
-    "FIOPS, ROW, BFQ-v7, SIO, DEADLINE, NOOP, CFQ and ZEN Schedulers",
-    "Live userspace sharpening control from @savoca",
-    "KCAL_CTRL RGB driver (replaces LCD_KCAL)",
-    "Sound Control Support",
-    "Voltage Control Support",
-    "Frandom",
-    "FSync",
-    "F2FS filesystem support",
-    "NTFS filesystem support",
-    "exFAT-nofuse filesystem support",
-    "Kexec Hardboot Patch (MultiROM support)",
-    "Adreno Idler",
-    "Disabled IO Stats",
-    "XZ Kernel Compression",
-    "Arch Power",
-    "Gentle Fair Sleepers (Disabled by default)",
-    "Powerqueue efficient control",
+    "Check Changelog 2# post on XDA",
     {
       "name": "CPU Governors",
       "items": [
-        "zzmoove",
         "yankactive",
-        "smartmax",
-        "slim",
-        "nightmare",
-        "intellimm",
+        "umbrella_core",
+        "blueactive",
+        "interactive_pro",
+        "ondemandplus",
+        "smartassV2",
         "intelliactive",
-        "impulse",
-        "darkness",
-        "alucard",
         "interactive",
         "conservative",
-        "ondemand",
         "userspace",
         "powersave",
         "lionheart",
@@ -71,13 +28,14 @@
     {
       "name": "GPU Governors",
       "items": [
+        "cache_hwmon",	  
         "cpubw_hwmon",
-        "msm-cpufreq",
-        "msm-adreno-tz",
+		"msm-adreno-tz",
         "userspace",
         "powersave",
         "performance",
-        "simple_ondemand"
+        "simple_ondemand",
+        "msm-cpufreq"
       ]
     },
     {
@@ -87,21 +45,23 @@
         "deadline",
         "row",
         "cfq",
-        "test-iosched",
         "bfq",
         "sio",
-        "fiops",
+        "fifo",
         "zen",
-        "vr"
+        "vr",
+		"sioplus",
+		"tripndroid",
+		"fiops"
       ]
     },
     {
       "name": "TCP Congestion Controls",
       "items": [
-        "cubic",
+        "westwood",
         "reno",
         "bic",
-        "westwood",
+	    "cubic",
         "highspeed",
         "hybla",
         "htcp",
@@ -116,85 +76,20 @@
   ],
   "downloads": [
     {
-      "name": "Change Log",
-      "description": "<b>R21</b>",
-      "url": "",
-      "md5sum": "",
-      "changelog": [
-        "Linux 3.4.110"
-      ]
+      "name": " BHB27-Kernel FOR CM12.1-Nexus-ResurrectionRemix ROM",
+      "url": "https://www.androidfilehost.com/?w=files&flid=42109",
     },
     {
-      "name": "AOSP-777-Kernel_d850-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_d850-R21.zip",
-      "md5sum": "db2130153b918bf74fa11b0a85b749bb",
-      "changelog": [
-        "For <i>d850</i> only",
-        "View change log above"
-      ]
+      "name": " BHB27-Kernel FOR Mokee ROM",
+      "url": "https://www.androidfilehost.com/?w=files&flid=42110",
     },
     {
-      "name": "AOSP-777-Kernel_d851-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_d851-R21.zip",
-      "md5sum": "5e6c9f521285a25a76144c8a65f8cacc",
-      "changelog": [
-        "For <i>d851</i> only",
-        "View change log above"
-      ]
+      "name": " Stock-Kernel FOR CM12.1-Nexus-ResurrectionRemix ROM",
+      "url": "https://www.androidfilehost.com/?w=files&flid=39822",
     },
     {
-      "name": "AOSP-777-Kernel_d852-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_d852-R21.zip",
-      "md5sum": "101f99aa3f9106dd180a30f0c0eb072f",
-      "changelog": [
-        "For <i>d852</i> only",
-        "View change log above"
-      ]
-    },
-    {
-      "name": "AOSP-777-Kernel_d855-16G-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_d855-16G-R21.zip",
-      "md5sum": "4b8d3476d26fdb15d16f8c48ecdbb054",
-      "changelog": [
-        "For <i>d855, 16GB</i> only",
-        "View change log above"
-      ]
-    },
-    {
-      "name": "AOSP-777-Kernel_d855-32G-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_d855-32G-R21.zip",
-      "md5sum": "3b65cd8c5bb01f5ae6d174c46c001f85",
-      "changelog": [
-        "For <i>d855, 32GB</i> only",
-        "View change log above"
-      ]
-    },
-    {
-      "name": "AOSP-777-Kernel_f400-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_f400-R21.zip",
-      "md5sum": "4fdaf712fb2347b71ed4f05618b073b7",
-      "changelog": [
-        "For <i>f400</i> only",
-        "View change log above"
-      ]
-    },
-    {
-      "name": "AOSP-777-Kernel_ls990-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_ls990-R21.zip",
-      "md5sum": "4ea27765b0073204e7f5c68e97354683",
-      "changelog": [
-        "For <i>ls990</i> only",
-        "View change log above"
-      ]
-    },
-    {
-      "name": "AOSP-777-Kernel_vs985-R21.zip",
-      "url": "https://s.basketbuild.com/dl/devs?dl=777jon/G3/777-Kernel/AOSP-777-Kernel_vs985-R21.zip",
-      "md5sum": "965c12261dfa371715171a6e83bc9189",
-      "changelog": [
-        "For <i>vs985</i> only",
-        "View change log above"
-      ]
+      "name": " BHB27-Kernel FOR Mokee ROM",
+      "url": "https://www.androidfilehost.com/?w=files&flid=42108",
     }
   ]
 }
