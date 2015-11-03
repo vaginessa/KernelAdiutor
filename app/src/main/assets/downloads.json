@@ -127,15 +127,11 @@
   },
 {
     "vendor": [
-      "Motorola",
       "motorola"
     ],
     "device": [
-      "Quark",
-      "quark",
-      "Moto MAXX",
-      "xt1225"
+      "quark"
     ],
-    "link": "https://raw.githubusercontent.com/bhb27/KernelAdiutor/master/download/Quark.json"
+    "link": "https://raw.githubusercontent.com/bhb27/KernelAdiutor/master/download/quark.json"
   }
 ]
