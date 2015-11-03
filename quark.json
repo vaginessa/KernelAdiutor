@@ -1,7 +1,7 @@
 {
     "name": "<b><font color=\"#FFFFFF\">BHB27-Kernel</font></b>",
     "short_description": "BHB27-Kernel by <b>BHB27 AKA baybutcher27</b>",
-    "long_description": "    BHB27-Kernel Custom Kernel for CM Based Roms",
+    "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms. This will work on any CM Custom ROM today they are (CM12.1, Mokee, NX and RR) Be aware Mokee has its separate zip.Check XDA link for recomendations, help etc...",
     "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
     "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
     "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
@@ -26,24 +26,6 @@
                 "Fsync cotrol",
                 "Power suspend Mode, better deep sleep tool",
                 "Network optimizations + many custom TCP Cong algorithm"
-            ]
-        },
-        {
-            "name": "CPU Governors",
-            "items": [
-                "yankactive",
-                "umbrella_core",
-                "blueactive",
-                "interactive_pro",
-                "ondemandplus",
-                "smartassV2",
-                "intelliactive",
-                "interactive",
-                "conservative",
-                "userspace",
-                "powersave",
-                "lionheart",
-                "performance"
             ]
         },
         {
