@@ -1,16 +1,17 @@
 {
     "name": "<b><font color=\"#FFFFFF\">BHB27-Kernel</font></b>",
     "short_description": "BHB27-Kernel by <b>BHB27 AKA baybutcher27</b>",
-    "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms. This will work on any CM Custom ROM today they are (CM12.1, Mokee, NX and RR) Be aware Mokee has its separate zip.Check XDA link for recomendations, help etc...",
+    "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms. This will work on any CM Custom ROM today they are (CM12.1, Mokee, NX and RR) Be aware Mokee has its separate zip.",
     "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
     "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
-    "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
+    "github": "https://github.com/bhb27/android_kernel_motorola_apq8084",
     "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
     "features": [
+        "Last version released <b>V1.1.1</b> 10-30-2015",
+        "Check XDA link for recomendations, help etc...",
         {
             "name": "Main features",
             "items": [
-                "Last version released 10-30-2015",
                 "Over and under clock",
                 "Linux Kernel 3.10.92",
                 "Many custom CPU GOV optimized for Krait 450",
