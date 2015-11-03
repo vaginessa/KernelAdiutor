@@ -35,8 +35,8 @@
             ]
         },
         {
-            "name": "Battery:",
-            "items": [
+            "name": "<b>Battery:</b>",
+            "description": [
                 "<b>CPU</b>",
                 "Frequency: MAX @2572MHz to @2649MHz Min @268MHz",
                 "CPU GOV: Yankactive or Umbrella_core",
@@ -66,8 +66,8 @@
             ]
         },
         {
-            "name": "Performance:",
-            "items": [
+            "name": "<b>Performance:</b>",
+            "description": [
                 "<b>CPU</b>",
                 "Frequency: MAX @2764 MHz to @2880MHz Min @268MHz",
                 "CPU GOV:  Interactive_pro or Umbrella_core",
