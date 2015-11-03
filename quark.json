@@ -28,110 +28,15 @@
             ]
         },
         {
-            "name": "CPU Governors",
+            "name": "Recommendations:",
             "items": [
-                "yankactive",
-                "umbrella_core",
-                "blueactive",
-                "interactive_pro",
-                "ondemandplus",
-                "smartassV2",
-                "intelliactive",
-                "interactive",
-                "conservative",
-                "userspace",
-                "powersave",
-                "lionheart",
-                "performance"
+                "Battery",
+                "Performance"
             ]
         },
         {
-            "name": "CPU Governors",
+            "name": "Battery:",
             "items": [
-                "yankactive",
-                "umbrella_core",
-                "blueactive",
-                "interactive_pro",
-                "ondemandplus",
-                "smartassV2",
-                "intelliactive",
-                "interactive",
-                "conservative",
-                "userspace",
-                "powersave",
-                "lionheart",
-                "performance"
-            ]
-        },
-        {
-            "name": "GPU Governors",
-            "items": [
-                "cache_hwmon",
-                "cpubw_hwmon",
-                "msm-adreno-tz",
-                "userspace",
-                "powersave",
-                "performance",
-                "simple_ondemand",
-                "msm-cpufreq"
-            ]
-        },
-        {
-            "name": "I/O Schedulers",
-            "items": [
-                "noop",
-                "deadline",
-                "row",
-                "cfq",
-                "bfq",
-                "sio",
-                "fifo",
-                "zen",
-                "vr",
-                "sioplus",
-                "tripndroid",
-                "fiops"
-            ]
-        },
-        {
-            "name": "TCP Congestion Controls",
-            "items": [
-                "westwood",
-                "reno",
-                "bic",
-                "cubic",
-                "highspeed",
-                "hybla",
-                "htcp",
-                "vegas",
-                "veno",
-                "scaleable",
-                "lp",
-                "yeah",
-                "illinois"
-            ]
-        }
-    ],
-    "downloads": [
-        {
-            "name": " BHB27-Kernel",
-            "description": "<b>Only for <i>CM12.1-Nexus-ResurrectionRemix ROM</i></b>",
-            "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
-            "md5sum": "30d1d21ce08f15be329f71e83157c578",
-            "changelog": [
-                "V.1.1.1",
-                "To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update",
-                "Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm.",
-                "Revert some USB changes"
-            ]
-        }
-    ],
-    "recommendations": [
-        {
-            "name": "Battery",
-            "description": "Recomended config for best duration of the battery",
-            "md5sum": "30d1d21ce08f15be329f71e83157c578",
-            "set1": [
                 "<b>CPU</b>",
                 "Frequency: MAX @2572MHz to @2649MHz Min @268MHz",
                 "CPU GOV: Yankactive or Umbrella_core",
@@ -158,8 +63,11 @@
                 "Power Suspend set LCD panel",
                 "TCP Cong westwood ",
                 " "
-            ],
-            "set2": [
+            ]
+        },
+        {
+            "name": "Performance:",
+            "items": [
                 "<b>CPU</b>",
                 "Frequency: MAX @2764 MHz to @2880MHz Min @268MHz",
                 "CPU GOV:  Interactive_pro or Umbrella_core",
@@ -187,6 +95,20 @@
                 "Power Suspend set LCD panel",
                 "TCP Cong westwood ",
                 " "
+            ]
+        }
+    ],
+    "downloads": [
+        {
+            "name": " BHB27-Kernel",
+            "description": "<b>Only for <i>CM12.1-Nexus-ResurrectionRemix ROM</i></b>",
+            "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
+            "md5sum": "30d1d21ce08f15be329f71e83157c578",
+            "changelog": [
+                "V.1.1.1",
+                "To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update",
+                "Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm.",
+                "Revert some USB changes"
             ]
         }
     ]
