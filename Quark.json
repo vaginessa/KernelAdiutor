@@ -1,47 +1,44 @@
 {
-  "name": "<b><font color=\"#FFFFFF\">INAZUMA KERNEL</font></b>",
-  "short_description": "A kernel by <b>Zeeshan Hussain</b>",
-   "long_description": "Welcome to <b>InazumaKernel</b>!<br/><a href=\"http://www.github.com/zeeshanhussain\">My Github Profile</a><br/>Enjoy My Inazuma Kernel For Condor :D !!!",
-  "logo": "http://s1030.photobucket.com/user/zeeshanhussain12/media/ZeeKernel_zpsp8wafudb.jpg.html",
-  "xda": "http://forum.xda-developers.com/moto-e/orig-development/kernel-inazuma-kernel-1-0-t3209784",
-  "github": "https://github.com/zeeshanhussain/Inazumakernel",
-  "google_plus": "https://plus.google.com/u/0/+ZeeshanHussain12",
+  "name": "<b><font color=\"#FFFFFF\">BHB27-Kernel</font></b>",
+  "short_description": "BHB27-Kernel by <b>BHB27 AKA baybutcher27</b>",
+  "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms",
+  "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
+  "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
+  "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
+  "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
   "features": [
-    "CM AND AOSP Based",
-    "Linux Kernel 3.4.42",
-    "Compiled with Linaro 4.9.4 optimized for cortex-a7 ",
-    "Touch Boost",
-    "FSync",
-    "Sound Control",
-    "Fast charge",
-    "INTELLIPLUG"
-    "INTELLITHERMAL"
-    "Many more tweaks, check GitHub",
+    "Check Changelog 2# post on XDA"
     {
       "name": "CPU Governors",
       "items": [
-        "interactive (default)",
-        "ondemand ",
+        "yankactive",
+        "umbrella_core",
+        "blueactive",
+        "interactive_pro",
+        "ondemandplus",
+        "smartassV2",
+        "intelliactive",
+        "interactive",
+        "conservative",
         "userspace",
         "powersave",
-        "performance",
-        "zzmoove",
-        "pegassusq",
-        "nightmare",
         "lionheart",
-        
+        "performance",
+
       ]
     },
     {
       "name": "GPU Governors",
       "items": [
-        "msm_cpufreq",
-        "msm-adreno-tz (default)",
+        "cache_hwmon",	  
+        "cpubw_hwmon",
+		"msm-adreno-tz",
         "userspace",
         "powersave",
         "performance",
         "simple_ondemand",
-       
+        "msm-cpufreq",
+
       ]
     },
     {
@@ -49,22 +46,25 @@
       "items": [
         "noop",
         "deadline",
-        "ROW",
-        "BFQ" ,
-        "CFQ",
-        "fiops (default)",             
+        "row",
+        "cfq",
+        "bfq",
+        "sio",
+        "fifo",
         "zen",
-        "SIO",
-        "vr"
+        "vr",
+	"sioplus",
+	"tripndroid",
+	"fiops"
       ]
     },
     {
       "name": "TCP Congestion Controls",
       "items": [
-        "westwood (default)",
+        "westwood",
         "reno",
         "bic",
-        "cubic",
+	    "cubic",
         "highspeed",
         "hybla",
         "htcp",
@@ -78,81 +78,16 @@
     }
   ],
   "downloads": [
-  
-  {
-    
-        "name": "Inazuma-kernel 1.2",
-      "description": "<b>Only for <i>CM AND AOSP based ROMs</i></b>",
-      "url": "http://qc3.androidfilehost.com/dl/rKxfszMkShNXua_rhdNOtA/1445256443/24052804347831901/inazuma+kernel+1.2.zip?",
-      "md5sum": "b22462296ffcd8f6bcb938cb0dcc87a4",
-      "changelog": [
-        "Added Network Speed Tweaks"
-" Lowered latency to reduce lags "
-" Added Simple Gpu Algorithm "
-" Added USB Fast Charging "
-" Added kcal support "
-" Added Intellithermal "
-" Optimized Slub"
-" Dynamic readahead support"
-" Optimized AES & SHA1 routines"
-" Use Android device as USB keyboard/mouse"
-      ]
-    },
     {
-      "name": "Inazuma-kernel 1.1",
-      "description": "<b>Only for <i>CM AND AOSP based ROMs</i></b>",
-      "url": "http://qc3.androidfilehost.com/dl/ocsIV4ybcBlCt0ovB_KDBg/1445256188/24052804347822762/inazuma+kernel+1.1.zip?",
-      "md5sum": "1c9247b32b48c06557d4bfe2d384caca",
-      "changelog": [
-        "Added Powersuspend"
-"Added a bunch of tcp congestions"
-
-"ADVANCED"
-"BIC"
-"CUBIC"
-"WESTWOOD"
-"HTCP"
-"HSTCP"
-"HYBLA"
-"VEGAS"
-"SCALABLE"
-"LP"
-"VENO"
-"YEAH"
-"ILLINOIS"
-
-"Added bricked hotplug"
-"Changed selinux to permissive "
-"Added frandom support"
-"Added sound control v3.4 by faux123"
-      ]
-    },
-      {
-      "name": "Inazuma-kernel 1.0",
-      "description": "<b>Only for <i>CM AND AOSP based ROMs</i></b>",
-      "url": "http://qc2.androidfilehost.com/dl/Z-ukrBtNCLomkSXyrx9Gkw/1445255902/24052804347821172/inazuma+kernel+1.0.zip?",
-      "md5sum": "b9017274edca9c9ca6c8528565edefa4",
-      "changelog": [
-        "Initial Release"
-"Enabled Arch_power"
-"Reduced Swapiness"
-"Enabled Agressive multi-core power savings"
-"Disabled Crc check"
-"Disabled gentle fair sleepers"
-"Intelliplug hotplug"
- "Added New governers"
-
-"pegasusq"
-"Nightmare"
-"Lionheart"
-
-"Added new i/o schedulers"
-
-"sio"
-"bfq"
-"zen"
-" vr "
-
+      "name": " BHB27-Kernel",
+      "description": "<b>Only for <i>CM12.1-Nexus-ResurrectionRemix ROM</i></b>",
+      "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
+      "md5sum": "30d1d21ce08f15be329f71e83157c578",
+"changelog": [
+        "V.1.1.1"
+"To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update"
+" Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm."
+"Revert some USB changes."
       ]
     }
   ]
