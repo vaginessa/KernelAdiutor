@@ -1,94 +1,92 @@
 {
-  "name": "<b><font color=\"#FFFFFF\">BHB27-Kernel</font></b>",
-  "short_description": "BHB27-Kernel by <b>BHB27 AKA baybutcher27</b>",
-  "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms",
-  "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
-  "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
-  "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
-  "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
-  "features": [
-    "Check Changelog 2# post on XDA"
-    {
-      "name": "CPU Governors",
-      "items": [
-        "yankactive",
-        "umbrella_core",
-        "blueactive",
-        "interactive_pro",
-        "ondemandplus",
-        "smartassV2",
-        "intelliactive",
-        "interactive",
-        "conservative",
-        "userspace",
-        "powersave",
-        "lionheart",
-        "performance",
-
-      ]
-    },
-    {
-      "name": "GPU Governors",
-      "items": [
-        "cache_hwmon",	  
-        "cpubw_hwmon",
-		"msm-adreno-tz",
-        "userspace",
-        "powersave",
-        "performance",
-        "simple_ondemand",
-        "msm-cpufreq",
-
-      ]
-    },
-    {
-      "name": "I/O Schedulers",
-      "items": [
-        "noop",
-        "deadline",
-        "row",
-        "cfq",
-        "bfq",
-        "sio",
-        "fifo",
-        "zen",
-        "vr",
-	"sioplus",
-	"tripndroid",
-	"fiops"
-      ]
-    },
-    {
-      "name": "TCP Congestion Controls",
-      "items": [
-        "westwood",
-        "reno",
-        "bic",
-	    "cubic",
-        "highspeed",
-        "hybla",
-        "htcp",
-        "vegas",
-        "veno",
-        "scaleable",
-        "lp",
-        "yeah",
-        "illinois"
-      ]
-    }
-  ],
-  "downloads": [
-    {
-      "name": " BHB27-Kernel",
-      "description": "<b>Only for <i>CM12.1-Nexus-ResurrectionRemix ROM</i></b>",
-      "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
-      "md5sum": "30d1d21ce08f15be329f71e83157c578",
-"changelog": [
-        "V.1.1.1"
-"To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update"
-" Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm."
-"Revert some USB changes."
-      ]
-    }
-  ]
+    "name": "<b><font color=\"#FFFFFF\">BHB27-Kernel</font></b>",
+    "short_description": "BHB27-Kernel by <b>BHB27 AKA baybutcher27</b>",
+    "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms",
+    "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
+    "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
+    "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
+    "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
+    "features": [
+        "Check Changelog 2# post on XDA",
+        {
+            "name": "CPU Governors",
+            "items": [
+                "yankactive",
+                "umbrella_core",
+                "blueactive",
+                "interactive_pro",
+                "ondemandplus",
+                "smartassV2",
+                "intelliactive",
+                "interactive",
+                "conservative",
+                "userspace",
+                "powersave",
+                "lionheart",
+                "performance"
+            ]
+        },
+        {
+            "name": "GPU Governors",
+            "items": [
+                "cache_hwmon",
+                "cpubw_hwmon",
+                "msm-adreno-tz",
+                "userspace",
+                "powersave",
+                "performance",
+                "simple_ondemand",
+                "msm-cpufreq"
+            ]
+        },
+        {
+            "name": "I/O Schedulers",
+            "items": [
+                "noop",
+                "deadline",
+                "row",
+                "cfq",
+                "bfq",
+                "sio",
+                "fifo",
+                "zen",
+                "vr",
+                "sioplus",
+                "tripndroid",
+                "fiops"
+            ]
+        },
+        {
+            "name": "TCP Congestion Controls",
+            "items": [
+                "westwood",
+                "reno",
+                "bic",
+                "cubic",
+                "highspeed",
+                "hybla",
+                "htcp",
+                "vegas",
+                "veno",
+                "scaleable",
+                "lp",
+                "yeah",
+                "illinois"
+            ]
+        }
+    ],
+    "downloads": [
+        {
+            "name": " BHB27-Kernel",
+            "description": "<b>Only for <i>CM12.1-Nexus-ResurrectionRemix ROM</i></b>",
+            "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
+            "md5sum": "30d1d21ce08f15be329f71e83157c578",
+            "changelog": [
+                " * V.1.1.1",
+                " * To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update",
+                " * Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm.",
+                " * Revert some USB changes"
+            ]
+        }
+    ]
 }
