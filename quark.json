@@ -7,7 +7,39 @@
     "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
     "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
     "features": [
-        "Check Changelog 2# post on XDA",
+        "Over and under clock",
+        "Linux Kernel 3.10.92",
+        "Many custom CPU GOV optimized for Krait 450",
+        "CPU optimizations Schedule workqueues + CPU Boost + Wakeup Boost + Hotplug Boost",
+        "CPU voltage control",
+        "Custom CPU Hotplug",
+        "Custom Termal control",
+        "GPU optimizations + GPU idling algorithm",
+        "KCAL - Advanced color",
+        "Sound control module",
+        "I/O Scheduler optimizations + many custom I/O",
+        "KSM  kernel samepage merging",
+        "Fsync cotrol",
+        "Power suspend Mode, better deep sleep tool",
+        "Network optimizations + many custom TCP Cong algorithm",
+        {
+            "name": "CPU Governors",
+            "items": [
+                "yankactive",
+                "umbrella_core",
+                "blueactive",
+                "interactive_pro",
+                "ondemandplus",
+                "smartassV2",
+                "intelliactive",
+                "interactive",
+                "conservative",
+                "userspace",
+                "powersave",
+                "lionheart",
+                "performance"
+            ]
+        },
         {
             "name": "CPU Governors",
             "items": [
