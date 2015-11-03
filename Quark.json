@@ -5,8 +5,9 @@
   "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
   "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
   "github": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
+  "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
   "features": [
-    "Check Changelog 2# post on XDA",
+    "Check Changelog 2# post on XDA"
     {
       "name": "CPU Governors",
       "items": [
@@ -22,7 +23,8 @@
         "userspace",
         "powersave",
         "lionheart",
-        "performance"
+        "performance",
+
       ]
     },
     {
@@ -35,7 +37,8 @@
         "powersave",
         "performance",
         "simple_ondemand",
-        "msm-cpufreq"
+        "msm-cpufreq",
+
       ]
     },
     {
@@ -50,9 +53,9 @@
         "fifo",
         "zen",
         "vr",
-		"sioplus",
-		"tripndroid",
-		"fiops"
+	"sioplus",
+	"tripndroid",
+	"fiops"
       ]
     },
     {
@@ -76,20 +79,16 @@
   ],
   "downloads": [
     {
-      "name": " BHB27-Kernel FOR CM12.1-Nexus-ResurrectionRemix ROM",
-      "url": "https://www.androidfilehost.com/?w=files&flid=42109",
-    },
-    {
-      "name": " BHB27-Kernel FOR Mokee ROM",
-      "url": "https://www.androidfilehost.com/?w=files&flid=42110",
-    },
-    {
-      "name": " Stock-Kernel FOR CM12.1-Nexus-ResurrectionRemix ROM",
-      "url": "https://www.androidfilehost.com/?w=files&flid=39822",
-    },
-    {
-      "name": " BHB27-Kernel FOR Mokee ROM",
-      "url": "https://www.androidfilehost.com/?w=files&flid=42108",
+      "name": " BHB27-Kernel",
+      "description": "<b>Only for <i>CM12.1-Nexus-ResurrectionRemix ROM</i></b>",
+      "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
+      "md5sum": "30d1d21ce08f15be329f71e83157c578",
+"changelog": [
+        "V.1.1.1"
+"To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update"
+" Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm."
+"Revert some USB changes."
+      ]
     }
   ]
 }
