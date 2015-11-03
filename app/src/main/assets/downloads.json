@@ -124,5 +124,14 @@
 
     ],
     "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/Inazuma.json"
+  },
+{
+    "vendor": [
+      "Motorola"
+    ],
+    "device": [
+      "Quark"
+    ],
+    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/Quark.json"
   }
 ]
