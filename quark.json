@@ -103,11 +103,12 @@
     ],
     "downloads": [
         {
-            "name": " BHB27-Kernel For CM - NX - RR",
+            "name": "<b>V-1.1.1</b> BHB27-Kernel For CM - NX - RR",
             "description": "This zip is <b>Only for <i>CM12.1 - Nexus - ResurrectionRemix ROM</i></b>",
             "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
             "md5sum": "30d1d21ce08f15be329f71e83157c578",
             "changelog": [
+                "Changelog:",
                 "V.1.1.1",
                 "To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update",
                 "Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm.",
@@ -115,15 +116,13 @@
             ]
         },
         {
-            "name": " BHB27-Kernel For Mokee only",
+            "name": "<b>V-1.1.1</b> BHB27-Kernel For Mokee only",
             "description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
             "url": "http://ca1.androidfilehost.com/dl/hSb6CV0IP-JftiLGBjqb0w/1446674282/24052804347850008/BHB27-Kernel-V111-Mokee.zip",
             "md5sum": "b7d03b11a5db697fa3b1728eece27bba",
             "changelog": [
-                "V.1.1.1",
-                "To solve some random reboot that happens when using Data revert some changes made before the Moto 5.1.1 kernel update",
-                "Revert Heavy Hitter Filter and Proportional Integral Controller Enhanced network optimization algorithm.",
-                "Revert some USB changes"
+                "Changelog:",
+                "Same as above"
             ]
         },
         {
