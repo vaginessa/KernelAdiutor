@@ -2,7 +2,7 @@
     "name": "<b><font color=\"#FFFFFF\">BHB27-Kernel</font></b>",
     "short_description": "BHB27-Kernel by <b>BHB27 AKA baybutcher27</b>",
     "long_description": "BHB27-Kernel Custom Kernel for CM Based Roms. This will work on any CM Custom ROM today they are (CM12.1, Mokee, NX and RR) Be aware Mokee has its separate zip.",
-    "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk.png",
+    "logo": "https://dl.dropboxusercontent.com/u/281742759/kernel/bk2.png",
     "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
     "github": "https://github.com/bhb27/android_kernel_motorola_apq8084",
     "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
@@ -137,7 +137,7 @@
         {
             "name": " Stock-Mokee-Kernel-2015-10-23.zip",
             "description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/stock/Stock-Mokee-Kernel-20151023.zip",
+            "url": "http://bit.ly/1RUnAqX",
             "md5sum": "6ef0df7720d5e6ce0a22739c5b3dde9d",
             "changelog": [
                 "Use this kernel in case you wanna to go back to your ROM stock Kernel",
