@@ -105,7 +105,7 @@
         {
             "name": "<b>V-1.1.1</b> BHB27-Kernel For CM - RR",
             "description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
-            "url": "http://ca1.androidfilehost.com/dl/TidtnNCH8xQn0TpGKSMTuQ/1446644288/24052804347850007/BHB27-Kernel-V111-CM-NX-RR.zip",
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V111-CM-NX-RR.zip",
             "md5sum": "30d1d21ce08f15be329f71e83157c578",
             "changelog": [
                 "Changelog:",
@@ -118,7 +118,7 @@
         {
             "name": "<b>V-1.1.1</b> BHB27-Kernel For Mokee only",
             "description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-            "url": "http://ca1.androidfilehost.com/dl/hSb6CV0IP-JftiLGBjqb0w/1446674282/24052804347850008/BHB27-Kernel-V111-Mokee.zip",
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V111-Mokee.zip",
             "md5sum": "b7d03b11a5db697fa3b1728eece27bba",
             "changelog": [
                 "Changelog:",
@@ -128,8 +128,7 @@
         {
             "name": " Stock-CM-RR-Kernel-2015-10-28.zip",
             "description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
-            "url": "http://ca1.androidfilehost.com/dl/R0xitdgSOPaawoPZdNgB1Q/1446674493/24052804347848650/Stock-CM-RR-Kernel-20151028.zip",
-            "md5sum": "3c8ab89dc6c992340815ba91e430d3f9",
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/stock/Stock-CM-RR-Kernel-20151028.zip",
             "changelog": [
                 "Use this kernel in case you wanna to go back to your ROM stock Kernel",
                 "Or reflash your last ROM zip"
@@ -138,7 +137,7 @@
         {
             "name": " Stock-Mokee-Kernel-2015-10-23.zip",
             "description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-            "url": "http://qc4.androidfilehost.com/dl/JMI3YEMaNTB69zILQnyLnA/1446674565/24052804347844917/Stock-Mokee-Kernel-20151023.zip",
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/stock/Stock-Mokee-Kernel-20151023.zip",
             "md5sum": "6ef0df7720d5e6ce0a22739c5b3dde9d",
             "changelog": [
                 "Use this kernel in case you wanna to go back to your ROM stock Kernel",
