@@ -9,6 +9,7 @@
     "features": [
         "Last version <b>V-1.1.2</b> released in 11-05-2015",
         "Check XDA thread for <b>recomendations, help etc...</b>",
+        "NX ROM support only V 1.0.8 and below, NX ROM need to be update by the DEV to support the newest version of BHB27-Kernel",
         {
             "name": "Main features",
             "items": [
