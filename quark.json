@@ -7,8 +7,8 @@
     "github": "https://github.com/bhb27/android_kernel_motorola_apq8084",
     "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
     "features": [
-        "Last version <b>V-1.1.1</b> released in 10-30-2015",
-        "Check XDA link for <b>recomendations, help etc...</b>",
+        "Last version <b>V-1.1.2</b> released in 11-05-2015",
+        "Check XDA thread for <b>recomendations, help etc...</b>",
         {
             "name": "Main features",
             "items": [
@@ -103,7 +103,33 @@
     ],
     "downloads": [
         {
-            "name": "V-1.1.1 - BHB27-Kernel For CM - RR",
+            "name": "V-1.1.2 - BHB27-Kernel For CM - RR - released in 11-05-2015",
+            "description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V112-CM-RR.zip",
+            "md5sum": "f20e2bd5ecb55ff8bf112418cb39fb27",
+            "changelog": [
+                "Changelog:",
+                "V.1.1.2",
+                "CPU over clock 2841Mhz and 2880 MHz (This is probably the maximum overclock I'll release)",
+                "Frequency table adjustment:",
+                "Reduce the maximum current for each frequency. (less power use, more battery)",
+                "CPU voltages FIX this fix the bug of some device not having the default voltage table that is in the 2#post after boot. (if your device is not using the default table of second post, try a Data clean of kernel app and reboot, if that doesn't help try a clean install, if you don't wanna to do that just set the voltage by hand) ",
+                "Minor updates so the kernel can keep up with the changes on the ROM's.",
+                "GCC compiler update and optimized to support android M (not really necessary right now, doesn't bring any noticeable improve to the kernel today, but is good to know that the compiler is ready and optimized for M)."
+            ]
+        },
+        {
+            "name": "V-1.1.2 - BHB27-Kernel For Mokee only- released in 11-05-2015",
+            "description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V112-Mokee.zip",
+            "md5sum": "380b07ea6d02e36738db6eacf5a20423",
+            "changelog": [
+                "Changelog:",
+                "Same as above"
+            ]
+        },
+        {
+            "name": "V-1.1.1 - BHB27-Kernel For CM - RR- released in 10-30-2015",
             "description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
             "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V111-CM-NX-RR.zip",
             "md5sum": "30d1d21ce08f15be329f71e83157c578",
@@ -116,7 +142,7 @@
             ]
         },
         {
-            "name": "V-1.1.1 - BHB27-Kernel For Mokee only",
+            "name": "V-1.1.1 - BHB27-Kernel For Mokee only- released in 10-30-2015",
             "description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
             "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V111-Mokee.zip",
             "md5sum": "b7d03b11a5db697fa3b1728eece27bba",
@@ -126,20 +152,20 @@
             ]
         },
         {
-            "name": " Stock-CM-RR-Kernel-2015-10-28.zip",
+            "name": " Stock-CM-RR-Kernel-2015-11-05.zip",
             "description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
-            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/stock/Stock-CM-RR-Kernel-20151028.zip",
-            "md5sum": "3c8ab89dc6c992340815ba91e430d3f9",            
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/stock/Stock-CM-RR-Kernel-20151105.zip",
+            "md5sum": "a238491254092a8a643de69aeafa0f9c",
             "changelog": [
                 "Use this kernel in case you wanna to go back to your ROM stock Kernel",
                 "Or reflash your last ROM zip"
             ]
         },
         {
-            "name": " Stock-Mokee-Kernel-2015-10-23.zip",
+            "name": " Stock-Mokee-Kernel-2015-11-05.zip",
             "description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/stock/Stock-Mokee-Kernel-20151023.zip",
-            "md5sum": "6ef0df7720d5e6ce0a22739c5b3dde9d",
+            "url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/stock/Stock-Mokee-Kernel-20151105.zip",
+            "md5sum": "bbf434ae21e981a028f1d7a1ade5a1c9",
             "changelog": [
                 "Use this kernel in case you wanna to go back to your ROM stock Kernel",
                 "Or reflash your last ROM zip"
