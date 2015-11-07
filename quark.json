@@ -114,7 +114,7 @@
                 "CPU over clock 2841Mhz and 2880 MHz (This is probably the maximum overclock I'll release)",
                 "Frequency table adjustment:",
                 "Reduce the maximum current for each frequency. (less power use, less heat and more battery)",
-                "CPU voltages FIX this fix the bug of some device not having the default voltage table that is in the 2#post after boot. (if your device is not using the default table of second post, try a Data clean of kernel app and reboot, if that doesn't help try a clean install, if you don't wanna to do that just set the voltage by hand) ",
+                "*CPU voltages FIX - this fix a bug of some frequency using too much voltage, there is a simple mathematics involving voltage VS frequency and I have corrects all tables (if your device is not using the default table of second post, try a Data clean of kernel app and reboot, if that doesn't help try a clean install, if you don't wanna to do that just set the voltage by hand) Some devices will use different table is normal there is 32 different frequency VS voltage table.",
                 "Minor updates so the kernel can keep up with the changes on the ROM's.",
                 "GCC compiler update and optimized to support android M (not really necessary right now, doesn't bring any noticeable improve to the kernel today, but is good to know that the compiler is ready and optimized for M)."
             ]
