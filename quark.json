@@ -30,7 +30,6 @@
                 "I/O Scheduler optimizations",
                 "Many custom I/O",
                 "KSM  kernel samepage merging",
-                "Fsync cotrol",
                 "Power suspend Mode, better deep sleep tool",
                 "Network optimizations",
                 "Many custom TCP Cong algorithm"
