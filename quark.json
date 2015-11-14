@@ -6,6 +6,7 @@
     "xda": "http://forum.xda-developers.com/moto-maxx/development/kernel-bhb27-kernel-t3207526",
     "github": "https://github.com/bhb27/android_kernel_motorola_apq8084",
     "paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
+    "google_plus": "https://plus.google.com/u/0/communities/101971976516364733211",
     "features": [
         "Last version <b>V-1.1.3</b> released in 11-11-2015",
         "Check XDA thread for <b>recomendations, help etc...</b>",
@@ -13,13 +14,13 @@
         {
             "name": "Main features",
             "items": [
-                "Over and under clock",
-                "Linux Kernel 3.10.92",
+                "CPU and GPU - Over and under clock",
+                "Linux Kernel 3.10.93",
                 "Many custom CPU GOV optimized for Krait 450",
                 "CPU optimizations",
                 "CPU Schedule workqueues",
                 "CPU Boost ",
-                "CPu Wakeup Boost and Hotplug Boost",
+                "CPU Wakeup Boost and Hotplug Boost",
                 "CPU voltage control",
                 "Custom CPU Hotplug",
                 "Custom Termal control",
