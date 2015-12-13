@@ -8,13 +8,13 @@
 	"paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
 	"google_plus": "https://plus.google.com/u/0/communities/101971976516364733211",
 	"features": [
-		"Last version <b>V-1.1.8</b> released in 12-09-2015",
+		"Last version <b>V-1.1.9</b> released in 12-13-2015",
 		"Check XDA thread for <b>recomendations, help etc...</b>",
 		"NX ROM support only V 1.0.8 and below, NX ROM need to be update by the DEV to support the newest version of BHB27-Kernel", {
 			"name": "Main features",
 			"items": [
 				"CPU and GPU - Over and under clock",
-				"Linux Kernel  always update to the latest version",
+				"Linux Kernel always update to the latest version",
 				"Many custom CPU GOV optimized for Krait 450",
 				"CPU optimizations",
 				"CPU Schedule workqueues",
@@ -103,7 +103,28 @@
 			]
 		}
 	],
-	"downloads": [{
+	"downloads": [ {
+		"name": "V-1.1.9 - BHB27-Kernel For CM - RR - released in 12-13-2015",
+		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V119-CM-RR.zip",
+		"md5sum": "54fd55ae1d43f6120fb78cc46bc4380a",
+		"changelog": [
+			"Changelog:",
+			"V.1.1.9",
+			"Linux 3.10.94 Update",
+			"Auto brightness improves",
+			"Minor updates so the kernel can keep up with the changes on the ROM's"
+		]
+	}, {
+		"name": "V-1.1.9 - BHB27-Kernel For Mokee only- released in 12-13-2015",
+		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V119-Mokee.zip",
+		"md5sum": "c761fb17a5c008744f2b5f171d2f5744",
+		"changelog": [
+			"Changelog:",
+			"Same as above"
+		]
+	},{
 		"name": "V-1.1.8 - BHB27-Kernel For CM - RR - released in 12-09-2015",
 		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V118-CM-RR.zip",
@@ -126,33 +147,6 @@
 		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V118-Mokee.zip",
 		"md5sum": "29d38684a71450788785f6b9bf170b49",
-		"changelog": [
-			"Changelog:",
-			"Same as above"
-		]
-	}, {
-		"name": "V-1.1.7 - BHB27-Kernel For CM - RR - released in 12-03-2015",
-		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V117-CM-RR.zip",
-		"md5sum": "646b3bcac25d03fb0b13b7c30c59b1f5",
-		"changelog": [
-			"Changelog:",
-			"V.1.1.7",
-			"Included cid 0x0 for verizon XT1254.",
-			"CPU,GPU, KSM improves.",
-			"Faster headset detection.",
-			"Improv kernel optimization.",
-			"Network speed tweak.",
-			"Enable tcp fast open functionality by default.",
-			"LOAD_FREQ (4*HZ+61) avoids loadavg Moire. http://ripke.com/loadavg/moire",
-			"Remove + symbol from kernel version string end, only visual dont change a ting to the kernel.",
-			"Minor updates so the kernel can keep up with the changes on the ROM's"
-		]
-	}, {
-		"name": "V-1.1.7 - BHB27-Kernel For Mokee only- released in 12-03-2015",
-		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V117-Mokee.zip",
-		"md5sum": "20b7c20d14942ce8a0039d17ee470679",
 		"changelog": [
 			"Changelog:",
 			"Same as above"
