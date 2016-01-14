@@ -112,7 +112,7 @@
 			"Changelog:",
 			"V.1.2.3",
 			"The kernel is stable and there is no new feature, just updates to the source and  tool-chains",
-			"Update GCC tolchaing UBERTC-4.8.5-20160110",
+			"Update GCC tool-chain UBERTC-4.8.5-20160110",
 			"Mokee link update, Mokee server finally released a new ROM",
 			"Minor updates so the kernel can keep up with the changes on the ROM's"
 		]
