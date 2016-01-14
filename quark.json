@@ -8,7 +8,7 @@
 	"paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
 	"google_plus": "https://plus.google.com/u/0/communities/101971976516364733211",
 	"features": [
-		"Last version <b>V-1.2.2</b> released in 2016-01-05",
+		"Last version <b>V-1.2.3</b> released in 2016-01-14",
 		"Check XDA thread for <b>recomendations, help etc...</b>",
 		"NX ROM support only V 1.0.8 and below, NX ROM need to be update by the DEV to support the newest version of BHB27-Kernel", {
 			"name": "Main features",
@@ -104,6 +104,28 @@
 		}
 	],
 	"downloads": [{
+		"name": "V-1.2.3 - BHB27-Kernel For CM - RR - released in 2016-01-14",
+		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V123-CM-RR.zip",
+		"md5sum": "573e9bb9a7b5ab55310218c75c594ea3",
+		"changelog": [
+			"Changelog:",
+			"V.1.2.3",
+			"The kernel is stable and there is no new feature, just updates to the source and toolchains",
+			"Update GCC tolchaing UBERTC-4.8.5-20160110",
+			"Mokee link update, Mokee server finaly released a new ROM",
+			"Minor updates so the kernel can keep up with the changes on the ROM's"
+		]
+	}, {
+		"name": "V-1.2.3 - BHB27-Kernel For Mokee only- released in 2016-01-14",
+		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V123-Mokee.zip",
+		"md5sum": "079ea6cbf729ae1544e4ff576051469f",
+		"changelog": [
+			"Changelog:",
+			"Same as above"
+		]
+	}, {
 		"name": "V-1.2.2 - BHB27-Kernel For CM - RR - released in 2016-01-05",
 		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V122-CM-RR.zip",
@@ -130,37 +152,6 @@
 			"Other minor audio improves to better support all the audio changes",
 			"enable Stereo Call Recording Support",
 			"Minor updates so the kernel can keep up with the changes on the ROM's"
-		]
-	},{
-		"name": "V-1.2.1 - BHB27-Kernel For CM - RR - released in 2015-12-27",
-		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V121-CM-RR.zip",
-		"md5sum": "c5b08aa64935348490579799103ce1ec",
-		"changelog": [
-			"Changelog:",
-			"Lot of changes/improve to decrease load average",
-			"Improve touch boost for some custom governors.",
-			"Reduce/improve a lot of wakelock",
-			"Implement fast idling of CPUs when the system is partially loaded (With this patch, we tested with a netperf request/response workload that",
-			"has the server busy with half the cpus in a 4 socket system.  We found",
-			"the patch eliminated 75% of the load balance attempts before idling a cpu)",
-			"-",
-			"Improve row I/O scheduler",
-			"CPU general improves",
-			"Prevent init process enforcing selinux",
-			"Enable UID_CPUTIME (Adds accounting for the cputimes per uid.) This pack included some improvements for CPU, Power, deepsleep and CPU frequancy handle",
-			"Enable CGROUP_BFQIO this Enable hierarchical scheduing in BFQ, using the cgroups filesystem interface.(set BFQ as default I/O scheduler the user can change this via kernel app)",
-			"Included default VT and VoLTE flags on init script",
-			"Minor updates so the kernel can keep up with the changes on the ROM's"
-		]
-	}, {
-		"name": "V-1.2.1 - BHB27-Kernel For Mokee only- released in 2015-12-27",
-		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V121-Mokee.zip",
-		"md5sum": "d03bac3c8e7ce1e8401c078fb81ed1b7",
-		"changelog": [
-			"Changelog:",
-			"Same as above"
 		]
 	}]
 }
