@@ -35,7 +35,8 @@
 				"KSM  kernel samepage merging",
 				"Network optimizations",
 				"Many custom TCP Cong algorithm",
-				"Wakelock's control"
+				"Wakelock's control",
+				"Custom Kernel auditor apk (to better support my kernel I make my on Kernel auditor check Downloads on XDA)"
 			]
 		}, {
 			"name": "CPU Governors",
