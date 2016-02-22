@@ -8,7 +8,7 @@
 	"paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
 	"google_plus": "https://plus.google.com/u/0/communities/101971976516364733211",
 	"features": [
-		"Last version <b>V-1.2.5</b> released in 2016-01-28",
+		"Last version <b>V-1.2.6</b> released in 2016-02-22",
 		"Check XDA thread for <b>recomendations, help etc...</b>",
 		"NX ROM support only V 1.0.8 and below, NX ROM need to be update by the DEV to support the newest version of BHB27-Kernel", {
 			"name": "Main features",
@@ -58,6 +58,10 @@
 				"Dance Dance",
 				"Bioshock",
 				"Lionheart",
+				"Conservativex",
+				"Wheatley",
+				"Nightmare",
+				"Pegasusq",
 				"performance"
 			]
 		}, {
@@ -108,7 +112,26 @@
 		}
 	],
 	"downloads": [{
-		"name": "V-1.2.5 - BHB27-Kernel For CM - RR - released in 2016-01-28",
+		"name": "V-1.2.6 Lollipop - BHB27-Kernel For CM - RR - released in 2016-02-22",
+		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V126-CM-RR.zip",
+		"md5sum": "f50944cb75bc2139560c938564dfa1ac",
+		"changelog": [
+			"Changelog:",
+			" V.1.2.6",
+			" Check XDA post"
+		]
+	}, {
+		"name": "V-1.2.6 Lollipop - BHB27-Kernel For Mokee only- released in 2016-02-22",
+		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V126-Mokee.zip",
+		"md5sum": "d469e20c4574bb6fad455add0c8ad972",
+		"changelog": [
+			"Changelog:",
+			"Same as above"
+		]
+	}, {
+		"name": "V-1.2.5 Lollipop - BHB27-Kernel For CM - RR - released in 2016-01-28",
 		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V125-CM-RR.zip",
 		"md5sum": "eebb39d1a29e27d76392136f04be664d",
@@ -119,52 +142,10 @@
 			""
 		]
 	}, {
-		"name": "V-1.2.5 - BHB27-Kernel For Mokee only- released in 2016-01-28",
+		"name": "V-1.2.5 Lollipop - BHB27-Kernel For Mokee only- released in 2016-01-28",
 		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V125-Mokee.zip",
 		"md5sum": "f9c7d31cf4221aac9d84fc2f1821c5d4",
-		"changelog": [
-			"Changelog:",
-			"Same as above"
-		]
-	}, {
-		"name": "V-1.2.4 - BHB27-Kernel For CM - RR - released in 2016-01-25",
-		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V124-CM-RR.zip",
-		"md5sum": "1970c06e2454373bbd223f5c02ebd6ff",
-		"changelog": [
-			"Changelog:",
-			" V.1.2.4",
-			" This version have over 190 individual commit's to included all changes and improves below described.",
-			" Linux 3.10.95 Update",
-			" Linux 3.10.95 Fix ",
-			" Moto bug fix for Shamu/Nexus 6 improve STREAM behavior with fragmented memory",
-			" Fix GPU frequency table, it was bug from the start, this comes from moto kernel, now the GPU can use the 27Mhz frequency that moto included but doesn't work, plus the ability to set frequency by the GPU is improved.",
-			" Reduce frequency of the GPU on boot 266 MHz to 166 MHz",
-			" I2C frequency improve.",
-			" Devfreq: Use high priority workqueue",
-			" Fix potential memory leak in path_lookupat",
-			" Int_sqrt: Correction square root algo with naming and Improve 3x faster integer sqrt",
-			" Add a new flag for power/suspend time from timekeeping",
-			" Remove SMARTASS2 CPU gov to improve zzmoove and cpufreq.c",
-			" Add wake gestures Sweep2wake and Doubletap2wake, is need to have Sweep2wake enable to Doubletap2wake to work, just a minor bug.",
-			" Port Power suspend From nexus 6, Moto/Google did a lot of improves to Nexus 6 Power suspend Tool and I port it all, the result for me is great, A lot off suspend error that prevent the device from going or coming from sleep they are now all solved, the logs reported are way better to understand the couse of suspend or not suspend, don't really know way moto doesn't update this for quark most change on nexus are from before 5.1 kernel released, I hope they do a better job on MM.",
-			" Asynchronous Fsync from HTC this was ported to Nexus I ported know to Quark, this is a tool integrated to suspend and other kernel tool's help a lot to improve the suspend Fsync and general to data and meta-data sync’ing.",
-			" Wakeup: add userspace knob's to enable/disable wakelock's.",
-			" Add a interface to Enable/Disable CRC can be enable disable via Kernel auditor, recommend to leave enable.",
-			" Simple_ondemand GPU governor  Fix and improves",
-			" Update and merge intellithermal to the kernel so it can use all the thermal tool's made by moto/linux for default MSM Thermal and moto blobs and keep the user friendly tools from intellithermal that allow the user to controlo thermal.",
-			" CPU, Indle, GPU, sched and Load average Fix's and improves this pack generally improves the way the kernel handle work load.",
-			" Improve the kernel build process",
-			" Rework optimization flags remove most as they are not bring improves.",
-			" Use Stock google GCC 4.8 to build the kernel to keep the modules and kernel close to stock 5.1 blobs and CM source, this prevent incompatibility and minor error.",
-			" + Some minor updates and fix for this whole package work."
-		]
-	}, {
-		"name": "V-1.2.4 - BHB27-Kernel For Mokee only- released in 2016-01-25",
-		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V124-Mokee.zip",
-		"md5sum": "a80c5bbd236282d411d843147d4db985",
 		"changelog": [
 			"Changelog:",
 			"Same as above"
