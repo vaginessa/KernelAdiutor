@@ -8,7 +8,7 @@
 	"paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
 	"google_plus": "https://plus.google.com/u/0/communities/101971976516364733211",
 	"features": [
-		"Last version <b>V-1.2.9-4-Marshmallow</b> and <b>V-1.2.9-Lollipop</b>",
+		"Last version <b>V-1.2.9-4-Marshmallow</b> and <b>V-1.2.9-1-Lollipop</b>",
 		"Check XDA thread for <b>recomendations, help etc...</b>",
 		"NX ROM support only V 1.0.8 and below, NX ROM need to be update by the DEV to support the newest version of BHB27-Kernel", {
 			"name": "Main features",
@@ -111,33 +111,24 @@
 		}
 	],
 	"downloads": [{
-		"name": "V-1.2.9-4 Marshmallow - BHB27-Kernel For Custom ROM- released in 2016-04-29",
-		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
+		"name": "V-1.2.9-4 Marshmallow - BHB27-Kernel Unified For Custom ROM - released in 2016-04-29",
+		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-4-M.zip",
 		"md5sum": "5d2d9f0d5cd73e7a73324331dc1a2411",
 		"changelog": [
 			"Changelog:",
-			" V.1.2.9-4",
-			" Check XDA for changelog"
+			" V.1.2.9-4 Unified ",
+			" Check XDA for full changelog"
 		]
 	}, {
-		"name": "V-1.2.9 Lollipop - BHB27-Kernel For CM and RR only- released in 2016-03-24",
-		"description": "This zip is <b>Only for <i>Mokee ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-CM-RR-L.zip",
-		"md5sum": "c4ab8b494340c6ec07cb98d6d02c308d",
-		"changelog": [
-			" V.1.2.9",
-			" Check XDA for changelog"
-		]
-	}, {
-		"name": "V-1.2.9 Lollipop - BHB27-Kernel For Mokee only - released in 2016-03-24",
-		"description": "This zip is <b>Only for <i>CM12.1 - ResurrectionRemix ROM</i></b>",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-Mokee-L.zip",
-		"md5sum": "33ad26fb823ddf20278d164409103d08",
+		"name": "V-1.2.9-1 Lollipop - BHB27-Kernel Unified For Custom ROM - released in 2016-05-02",
+		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-1-L.zip",
+		"md5sum": "1b3256e629a5a38d823a77f0c58c7ce0",
 		"changelog": [
 			"Changelog:",
-			" V.1.2.9",
-			" Check XDA for changelog"
+			" V.1.2.9-1 Unified ",
+			" Check XDA for full changelog"
 		]
 	}]
 }
