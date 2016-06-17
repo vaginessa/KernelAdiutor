@@ -108,7 +108,8 @@
   <string name="not_tunable">%s não é ajustável</string>
   <string name="mc_power_saving">Economia de energia de múltiplos núcleos</string>
   <string name="mc_power_saving_summary">Tentar agrupar as tarefas em menos núcleos possíveis.</string>
-  <string name="power_saving_wq">Agendar filas de trabalho em CPUs acordados para economizar energia.</string>
+  <string name="power_saving_wq">Fila de Trabalho Eficiente</string>
+  <string name="power_saving_wq_summary">Agenda filas de trabalho em um CPU já acordado para economizar energia.</string>
   <string name="cfs_scheduler_policy">Política do escalonador CFS</string>
   <string name="cfs_scheduler_policy_summary">A política decide como o escalonador CFS deve balancear as tarefas entre diferentes núcleos do CPU.</string>
   <string name="disabled">Desativado</string>
@@ -127,8 +128,8 @@
   <string name="input_interval">Intervalo de entrada</string>
   <string name="input_interval_summary">Intervalo mínimo que um CPU é impulsionado quando um toque é detectada.</string>
   <string name="input_boost_freq">Incrementar a frequência de entrada</string>
-  <string name="input_boost_freq_core">Frequência de impulso do Core (núcleo)  %s</string>
-  <string name="input_boost_freq_summary">Frequência que este core (núcleo) sera impulsionado quando um toque na tela for detectado.</string>
+  <string name="input_boost_freq_core">Frequência de impulso do núcleo %s</string>
+  <string name="input_boost_freq_summary">Frequência que este núcleo sera impulsionado quando um toque na tela for detectado.</string>
   <string name="wakeup_boost">WakeUp Boost</string>
   <string name="wakeup_boost_summary">WakeUp Boost é semelhante ao impulso de CPU mas ocorre quando a tela está ativada.</string>
   <string name="hotplug_boost">Hotplug Boost</string>
@@ -266,7 +267,7 @@
   <string name="cycle_down_summary">Ciclos de espera após o último evento hotplug para desligar outro núcleo.</string>
   <string name="cycle_up">Ciclo Up</string>
   <string name="cycle_up_summary">Ciclos de espera após o último evento hotplug para desligar outro núcleo.</string>
-  <string name="thermal_info">Use apenas um Driver térmico entre as seguintes opções, usando mais do que ao mesmo tempo pode causar um comportamento inesperado.\nA partir da versão 200.0 O kernel não é mais responsável pelo controle de temperatura, o responsável pelo controle thermal e um binário do sistema (thermal-engine), sem necessidades de fazer alterações aqui.</string>
+  <string name="thermal_info">Use apenas um Driver térmico entre as seguintes opções, usando mais do que ao mesmo tempo pode causar um comportamento inesperado.\nA partir da versão 200.0 O kernel não é mais responsável pelo controle de temperatura, o responsável pelo controle de temperatura é um binário do sistema (thermal-engine), sem necessidades de fazer alterações aqui.</string>
   <string name="thermald">Thermald</string>
   <string name="thermald_summary">Condutor térmico Stock da Qualcomm que impede sobreaquecimento do dispositivo. Isto deve ser desabilitado se o kernel atual tem uma alternativa.</string>
   <string name="intellithermal">Intellithermal</string>
@@ -526,6 +527,7 @@
   <string name="disksize_summary">Tenta aumentar o desempenho, evitando a paginação no armazenamento físico, mas usando um dispositivo virtual compactado na RAM. A paginação ocorre na RAM até que seja necessário usar o a área de troca no armazenamento físico.</string>
   <string name="available">Disponível</string>
   <string name="poolsize">PoolSize</string>
+  <string name="wakeup_threshold">Limite Acordar (Wakeup Threshold)</string>
   <string name="read">Leitura</string>
   <string name="write">Gravação</string>
   <string name="vibration_strength">Intensidade da vibração</string>
