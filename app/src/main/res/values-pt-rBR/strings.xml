@@ -63,7 +63,7 @@
   <string name="thermal">Temperatura</string>
   <string name="gpu">GPU</string>
   <string name="screen">Tela</string>
-  <string name="wake_controls">Controles de despertar</string>
+  <string name="wake_controls">Controles de acordar</string>
   <string name="sound">Som</string>
   <string name="battery">Bateria</string>
   <string name="io_scheduler">Agendador de I/O</string>
@@ -266,7 +266,7 @@
   <string name="cycle_down_summary">Ciclos de espera após o último evento hotplug para desligar outro núcleo.</string>
   <string name="cycle_up">Ciclo Up</string>
   <string name="cycle_up_summary">Ciclos de espera após o último evento hotplug para desligar outro núcleo.</string>
-  <string name="thermal_info">Use apenas um condutor térmico entre as seguintes opções, usando mais do que ao mesmo tempo pode causar um comportamento inesperado.</string>
+  <string name="thermal_info">Use apenas um Driver térmico entre as seguintes opções, usando mais do que ao mesmo tempo pode causar um comportamento inesperado.\nA partir da versão 200.0 O kernel não é mais responsável pelo controle de temperatura, o responsável pelo controle thermal e um binário do sistema (thermal-engine), sem necessidades de fazer alterações aqui.</string>
   <string name="thermald">Thermald</string>
   <string name="thermald_summary">Condutor térmico Stock da Qualcomm que impede sobreaquecimento do dispositivo. Isto deve ser desabilitado se o kernel atual tem uma alternativa.</string>
   <string name="intellithermal">Intellithermal</string>
@@ -314,7 +314,7 @@
   <string name="gpu_2d_max_freq">Frequência máxima do GPU 2D</string>
   <string name="gpu_2d_max_freq_summary">Defina a frequência máxima 2D que a GPU pode alcançar.</string>
   <string name="gpu_max_freq">Frequência máxima do GPU</string>
-  <string name="gpu_max_freq_summary">Defina a frequência máxima que o GPU pode alcançar.</string>
+  <string name="gpu_max_freq_summary">Defina a frequência máxima do GPU.</string>
   <string name="gpu_min_freq">Frequência mínima do GPU</string>
   <string name="gpu_min_freq_summary">Definir a frequência mínima do GPU.</string>
   <string name="gpu_2d_governor">Governador do GPU 2D</string>
@@ -327,25 +327,30 @@
   <string name="laziness_summary">Isto aumenta o limite para cima ou para baixo das frequências do GPU. Quanto menor, maior a performance que você tem.</string>
   <string name="ramp_thresold">Rampa do início</string>
   <string name="ramp_thresold_summary">Isso aumenta o número de vezes que o governador do GPU suprime as exigências. Assim, quando um valor mais alto, maior a performance.</string>
-  <string name="adreno_idler">Adreno inativo</string>
+  <string name="adreno_idler">Adreno idler</string>
   <string name="adreno_idler_summary">Uma solução eficiente para os overheads do msm-adreno-tz.</string>
-  <string name="down_differential">Baixo diferencial</string>
+  <string name="down_differential">Diferencial mínimo</string>
   <string name="down_differential_summary">Limite para determinar se a carga do sistema está ociosa.</string>
-  <string name="idle_wait">Espera ociosa</string>
-  <string name="idle_wait_summary">Número de eventos para esperar antes de abaixar a frequência. Os eventos de espera antes do atual devem ser todos ociosos antes que o tensor Adreno abaixe a frequência. Essa implementação é para evitar micro-lags na rolagem ou ao usar jogos. O tensor Adreno tentará frequentemente abaixar a frequência, se a mesma estiver definida para um valor mais baixo.</string>
+  <string name="idle_wait">Espera inatividade</string>
+  <string name="idle_wait_summary">Número de eventos para esperar antes de diminuir a frequência. Os eventos de espera antes do atual devem ser todos ociosos antes que o Adreno idler diminuia a frequência. Essa implementação é para evitar micro-lags na rolagem ou ao usar jogos. O Adreno idler tentará frequentemente diminuir a frequência se este estiver definido com um valor baixo.</string>
   <string name="workload">Carga de trabalho</string>
-  <string name="workload_summary">O tensor Adreno tentará inclinar mais ativamente para a baixa frequência, se isso for definido para um valor superior.</string>
+  <string name="workload_summary">O Adreno idler tentará mais ativamente baixar frequência, se este estiver com um valor alto.</string>
+  <string name="gpu_gaming_mode">Modo Jogo</string>
+  <string name="gpu_gaming_mode_summary">Modo Jogo restringe o GPU ao nível máximo de energia quando ativado.</string>
+
+  <string name="screen_color_profile">Perfil de Cor</string>
+  <string name="screen_color_profile_summary">Selecione um perfil de cor pré-configurado.</string>
   <string name="red">Vermelho</string>
   <string name="green">Verde</string>
   <string name="blue">Azul</string>
   <string name="min_rgb">Valor mínimo RGB</string>
-  <string name="invert_screen">Inverter tela</string>
+  <string name="invert_screen">Inverter ecrã</string>
   <string name="saturation_intensity">Intensidade de saturação</string>
   <string name="grayscale_mode">Modo tons de cinza</string>
-  <string name="screen_hue">Matiz da tela</string>
+  <string name="screen_hue">Matiz do ecrã</string>
   <string name="screen_hue_summary">Você pode ter problemas com SoC MSM8x26 ao definir um valor elevado.</string>
-  <string name="screen_value">Valor de tela</string>
-  <string name="screen_contrast">Contraste da tela</string>
+  <string name="screen_value">Valor do ecrã</string>
+  <string name="screen_contrast">Contraste do ecrã</string>
   <string name="high_brightness_mode">Modo de alto brilho</string>
   <string name="gamma">Gamma</string>
   <string name="gamma_profile">Perfil de gamma</string>
@@ -393,16 +398,28 @@
   <string name="master_sequence_summary">Ligando a sequência mestre irá desativar e ignorar os perfis Samsung e cenários, os controles ROM serão desabilitados.</string>
   <string name="glove_mode">Modo de luva</string>
   <string name="glove_mode_summary">Habilitar isso permitirá que use o seu celular mesmo se estiver usando luvas.</string>
+
+
+  <string name="wake_S2W_time">Tempo de um Sweep2Wake</string>
+  <string name="wake_S2W_time_summary">Use para controlar o tempo mínimo que um deslize precisa ter para ser considera uma intenção de acordar por Sweep2Wake.\nPadram é tradicionalmente 300ms.</string>
+  <string name="wake_dt2w_timebetweentaps">Tempo de um DoubleTap2Wake</string>
+  <string name="wake_dt2w_timebetweentaps_summary">Use para controlar o tempo mínimo entre dois toques para ser considera uma intenção de acordar por DoubleTap2Wake.\nPadram é tradicionalmente 500ms.</string>
+  <string name="wake_dt2w_featherx">DoubleTap2Wake Distancia (no eixo horizontal)</string>
+  <string name="wake_dt2w_featherx_summary">Use para controlar a distancia máxima entre o 1° e o 2° toque no eixo horizontal. Este ajuda a impedir toques intencionais.\nPadram é tradicionalmente 150px.</string>
+  <string name="wake_dt2w_feathery">DoubleTap2Wake Distancia (no eixo vertical)</string>
+  <string name="wake_dt2w_feathery_summary">Use para controlar a distancia máxima entre o 1° e o 2° toque no eixo vertical. Este ajuda a impedir toques intencionais.\nPadram é tradicionalmente 150px.</string>
+  <string name="vib_strength">Intensidade da vibração dos gestos deacordar</string>
+  <string name="vib_strength_summary">Este valor é exclusivo para esta seção e independente da intensidade de vibração do resto do sistema.</string>
   <string name="dt2w">DoubleTap2Wake</string>
-  <string name="dt2w_summary">Acorda seu dispositivo quando tiver um duplo toque na tela.</string>
+  <string name="dt2w_summary">Acorda seu dispositivo com um duplo toque na tela.</string>
   <string name="center">Centro</string>
   <string name="full">Completo</string>
   <string name="bottom_half">Metade inferior</string>
   <string name="top_half">Metade superior</string>
   <string name="halfscreen">Meia tela</string>
   <string name="fullscreen">Tela Cheia</string>
-  <string name="s2w">Sweep2Wake</string>
-  <string name="s2w_summary">Acorda seu dispositivo ao deslizar na tela.</string>
+  <string name="s2w">Ativado</string>
+  <string name="s2w_summary">Acorda seu dispositivo ao deslizar o dedo na tela, em qualquer direção.</string>
   <string name="lenient">Tolerância do Sweep2Wake</string>
   <string name="lenient_summary">Requer apenas o 1º e o 4º botão para ativar o Sweep2Wake.</string>
   <string name="s2s">Sweep2Sleep</string>
@@ -421,6 +438,7 @@
   <string name="s2w_charging">Sweep2Wake enquanto carrega</string>
   <string name="dt2w_s2w_charging">DoubleTap2Wake + Sweep2Wake enquanto carrega</string>
   <string name="sleep">Suspender</string>
+  <string name="sleep_summary">Deslize o dedo na parte de baixo da tela para desligar a tela.</string>
   <string name="dt2s">DoubleTap2Sleep</string>
   <string name="dt2s_summary">Bloquear seu dispositivo por batida dupla no topo da tela.</string>
   <string name="slide_up">Deslizar para cima</string>
@@ -439,11 +457,20 @@
   <string name="wake_timeout_summary">Defina o tempo quando os controles por gestos serão desabilitados após a tela se apagar.</string>
   <string name="power_key_suspend">Suspender a tecla de energia</string>
   <string name="power_key_suspend_summary">Ativar isto irá desligar os controles por toque quando a tela for desligada pela tecla de energia.</string>
+  
   <string name="sound_control">Controle de som</string>
   <string name="headset_highperf_mode">Modo de alto desempenho do fone de ouvido</string>
+  <string name="headset_highperf_mode_summary">Este ajuda a prevenir distorções quando o volume esta alto.</string>
+  <string name="driver_tunables">Controles ajustaveis Stock</string>
+  <string name="third_party_driver_tunables">Controles ajustaveis Não Stock</string>
+  <string name="headphone_gain_independent">Ganho idempedente de fone de ouvido</string>
+  <string name="headphone_gain_l">Ganho de fone de ouvido esquerdo</string>
+  <string name="headphone_gain_r">Ganho de fone de ouvido direito</string>
   <string name="headphone_gain">Ganho de fone de ouvido</string>
-  <string name="handset_microphone_gain">Ganho do microfone no monofone</string>
-  <string name="cam_microphone_gain">Ganho do microfone na filmadora</string>
+  <string name="handset_microphone_gain">Ganho do microfone do fone de ouvido</string>
+  <string name="cam_microphone_gain">Ganho do microfone da câmera</string>
+  <string name="headset_mspkr_drv_mode">Software contra distorção</string>
+  <string name="headset_mspkr_drv_mode_summary">Roda uma solução alternativa de software para evitar distorções no alto-falante</string>
   <string name="speaker_gain">Ganho de alto-falante</string>
   <string name="headphone_poweramp_gain">Ganho de PowerAmp em fones de ouvido</string>
   <string name="microphone_gain">Ganho do microfone</string>
@@ -451,6 +478,11 @@
   <string name="battery_voltage">Voltagem da bateria</string>
   <string name="battery_level">Nível de Bateria</string>
   <string name="battery_temperature">Temperatura da bateria</string>
+  <string name="battery_charging_current">Corrente de carga ou descarga da bateria</string>
+  <string name="battery_charging_mode">Modo do carregador</string>
+  <string name="battery_charging_mode_none">Carregador não conectado</string>
+  <string name="battery_charging_mode_weak">Corrente de carga muito fraca.\nProvavelmente carregador e ou cabo com defeito.</string>
+  <string name="battery_health">Estado da bateria</string>
   <string name="usb_fast_charge">Carga rápida USB</string>
   <string name="usb_fast_charge_summary">O dispositivo irá carregar mais rápido quando conectado com USB. Reconecte o carregador ao alterar esta opção.</string>
   <string name="blx">Extensor de autonomia da bateria</string>
@@ -661,4 +693,12 @@
   <string name="google_plus_summary">Junte-se à nossa comunidade.</string>
   <string name="translation">Tradução</string>
   <string name="translation_summary">Ajude-me traduzir este aplicativo!</string>
+    <string name="modification">Modificado para usar com BHB27-Kernel</string>
+    <string name="modification_summary">Este aplicativo foi extremamente modificado para melhor servir O Kernel BHB27-Kernel para o dispositivo Quark Motorola (Moto MAXX, Turbo or Droid Turbo). Confira o kernel na seção Download!</string>
+
+    <string name="modification_version">Versão modificada BHB27</string>
+    <string name="modification_version_number">0.9.9.4.+10</string>
+
+    <string name="accessibility_service_label">BHB27-Kernel-Adiutor Monitor de perfil por App</string>
+    <string name="accessibility_service_desc">Serviço para monitorar quando um app é utilizado para carregar o perfil por app configurado.</string>
 </resources>

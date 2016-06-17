@@ -294,7 +294,7 @@
     <string name="bricked_time_threshold">Time Threshold</string>
 	
     <!-- Thermal -->
-    <string name="thermal_info">Use only one thermal driver from the following options, using more at the same time may cause unexpected behavior.</string>
+    <string name="thermal_info">Use only one thermal driver from the following options, using more at the same time may cause unexpected behavior.\nIn version 200.0 and up the kernel has no control over thermal driver, Therma is handled by a system binary (thermal-engine), no need to make changes here.</string>
     <string name="thermald">Thermald</string>
     <string name="thermald_summary">Stock Qualcomm thermal driver that prevents device from overheating. This should be disabled if current kernel has an alternative.</string>
     <string name="intellithermal">Intellithermal</string>
@@ -520,6 +520,8 @@
     <string name="battery_temperature">Battery Temperature</string>
     <string name="battery_charging_current">Battery Charging/Discharging Current</string>
     <string name="battery_charging_mode">Battery Charging Mode</string>
+    <string name="battery_charging_mode_none">Charger not connected</string>
+    <string name="battery_charging_mode_weak">Charge current very weak.\nProbably defective charger and/or cable.</string>
     <string name="battery_health">Battery Health</string>
     <string name="usb_fast_charge">USB Fast Charge</string>
     <string name="usb_fast_charge_summary">Device will charge faster when connected with USB. Replug your charger when changing this option.</string>
@@ -841,10 +843,10 @@
     <string name="translation_summary">Help me translate this app!</string>
 
     <string name="modification">Modified for BHB27-Kernel</string>
-    <string name="modification_summary">This application is being heavily modified for Quark BHB27-Kernel. Check it out in the downloads section!</string>
+    <string name="modification_summary">This application is being heavily modified for the kernel BHB27-Kernel for Quark Motorola (Moto Maxx, Turbo or Droid Turbo). Check it out in the downloads section!</string>
 
     <string name="modification_version">BHB27 Mod Version</string>
-    <string name="modification_version_number">0.9.9.4.+9</string>
+    <string name="modification_version_number">0.9.9.4.+10</string>
 
     <string name="accessibility_service_label">BHB27-Kernel-Adiutor Per App Monitor</string>
     <string name="accessibility_service_desc">Service to monitor when foreground app changes for per-app profile loading</string>
