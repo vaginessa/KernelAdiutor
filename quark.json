@@ -8,9 +8,8 @@
 	"paypal": "http://forum.xda-developers.com/donatetome.php?u=5747496",
 	"google_plus": "https://plus.google.com/u/0/communities/101971976516364733211",
 	"features": [
-		"Last version <b>V-1.2.9-4-Marshmallow</b> and <b>V-1.2.9-1-Lollipop</b>",
-		"Check XDA thread for <b>recomendations, help etc...</b>",
-		"NX ROM support only V 1.0.8 and below, NX ROM need to be update by the DEV to support the newest version of BHB27-Kernel", {
+		"Last version <b>V-2.0.0-3-Marshmallow</b> and <b>V-1.2.9-1-Lollipop</b>",
+		"Check XDA thread for <b>recomendations, help etc...</b>", {
 			"name": "Main features",
 			"items": [
 				"CPU and GPU - Over and under clock",
@@ -40,28 +39,28 @@
 		}, {
 			"name": "CPU Governors",
 			"items": [
-				"ZZmoove",
-				"yankactive",
-				"umbrella_core",
-				"blueactive",
-				"interactive_pro",
-				"ondemandplus",
-				"intelliactive",
-				"interactive",
-				"conservative",
-				"userspace",
-				"powersave",
-				"Impulse",
 				"Alucard",
 				"Barry-Allen",
-				"Dance Dance",
 				"Bioshock",
-				"Lionheart",
+				"blueactive",
+				"conservative",
 				"Conservativex",
-				"Wheatley",
+				"Dance Dance",
+				"Impulse",
+				"intelliactive",
+				"interactive",
+				"interactive_pro",
+				"Lionheart",
 				"Nightmare",
+				"ondemandplus",
 				"Pegasusq",
-				"performance"
+				"performance",
+				"powersave",
+				"umbrella_core",
+				"userspace",
+				"Wheatley",
+				"yankactive",
+				"ZZmoove"
 			]
 		}, {
 			"name": "GPU Governors",
@@ -69,59 +68,71 @@
 				"cache_hwmon",
 				"cpubw_hwmon",
 				"msm-adreno-tz",
-				"userspace",
+				"msm-cpufreq",
 				"powersave",
 				"performance",
 				"simple_ondemand",
-				"msm-cpufreq"
+				"userspace"
 			]
 		}, {
 			"name": "I/O Schedulers",
 			"items": [
-				"noop",
-				"deadline",
-				"row",
-				"cfq",
 				"bfq",
-				"sio",
+				"cfq",
+				"deadline",
 				"fifo",
-				"zen",
-				"vr",
+				"fiops",
+				"noop",
+				"row",
+				"sio",
 				"sioplus",
 				"tripndroid",
-				"fiops"
+				"vr",
+				"zen"
 			]
 		}, {
 			"name": "TCP Congestion Controls",
 			"items": [
-				"westwood",
-				"reno",
 				"bic",
+				"cdg",
 				"cubic",
 				"highspeed",
-				"hybla",
 				"htcp",
+				"hybla",
+				"illinois",
+				"lp",
+				"reno",
+				"scaleable",
 				"vegas",
 				"veno",
-				"scaleable",
-				"lp",
-				"yeah",
-				"illinois"
+				"westwood",
+				"yeah"
 			]
 		}
 	],
 	"downloads": [{
-		"name": "V-1.2.9-4 Marshmallow - BHB27-Kernel Unified For Custom ROM - released in 2016-04-29",
+		"name": "V-1.2.9-9 Marshmallow - BHB27-Kernel Unified For Custom ROM - released in Jun-06-2016",
 		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-4-M.zip",
-		"md5sum": "5d2d9f0d5cd73e7a73324331dc1a2411",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-9-M.zip",
+		"md5sum": "85c61391f24da88c5d6cc5265eba7e05",
 		"changelog": [
 			"Changelog:",
-			" V.1.2.9-4 Unified ",
+			" V.1.2.9-9 ",
 			" Check XDA for full changelog"
 		]
-	}, {
-		"name": "V-1.2.9-1 Lollipop - BHB27-Kernel Unified For Custom ROM - released in 2016-05-02",
+	},{
+		"name": "V-2.0.0-3 Marshmallow - BHB27-Kernel Unified For Custom ROM - released in Jun-15-2016",
+		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V200-3-M.zip",
+		"md5sum": "f887c617c4b60a38a0299687986c275a",
+		"changelog": [
+			"Changelog:",
+			" V.2.0.0-3 ",
+			" Base on Moto Marshamllow Soak 4 source ",
+			" Check XDA for full changelog"
+		]
+	},{
+		"name": "V-1.2.9-1 Lollipop - BHB27-Kernel Unified For Custom ROM - released in May-02-2016",
 		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-1-L.zip",
 		"md5sum": "1b3256e629a5a38d823a77f0c58c7ce0",
