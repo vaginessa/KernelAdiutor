@@ -111,17 +111,7 @@
 		}
 	],
 	"downloads": [{
-		"name": "V-1.2.9-9 Marshmallow - BHB27-Kernel Unified For Custom ROM - released in Jun-06-2016",
-		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
-		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-9-M.zip",
-		"md5sum": "85c61391f24da88c5d6cc5265eba7e05",
-		"changelog": [
-			"Changelog:",
-			" V.1.2.9-9 ",
-			" Check XDA for full changelog"
-		]
-	},{
-		"name": "V-2.0.0-3 Marshmallow - BHB27-Kernel Unified For Custom ROM - released in Jun-15-2016",
+		"name": "Marshmallow - V-2.0.0-3 - BHB27-Kernel Unified For Custom ROM - released in Jun-15-2016",
 		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V200-3-M.zip",
 		"md5sum": "f887c617c4b60a38a0299687986c275a",
@@ -132,7 +122,17 @@
 			" Check XDA for full changelog"
 		]
 	},{
-		"name": "V-1.2.9-1 Lollipop - BHB27-Kernel Unified For Custom ROM - released in May-02-2016",
+		"name": "Marshmallow - V-1.2.9-9 - BHB27-Kernel Unified For Custom ROM - released in Jun-06-2016",
+		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
+		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-9-M.zip",
+		"md5sum": "85c61391f24da88c5d6cc5265eba7e05",
+		"changelog": [
+			"Changelog:",
+			" V.1.2.9-9 ",
+			" Check XDA for full changelog"
+		]
+	},{
+		"name": "Lollipop - V-1.2.9-1 - BHB27-Kernel Unified For Custom ROM - released in May-02-2016",
 		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V129-1-L.zip",
 		"md5sum": "1b3256e629a5a38d823a77f0c58c7ce0",
