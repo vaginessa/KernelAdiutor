@@ -111,7 +111,7 @@
 		}
 	],
 	"downloads": [{
-		"name": "Marshmallow - V-2.0.0-3 - BHB27-Kernel Unified For Custom ROM - released in Jun-15-2016",
+		"name": "Marshmallow - V-2.0.0-3 - BHB27-Kernel Unified For Custom and Stock Soak 4 - released in Jun-15-2016",
 		"description": "This Kernel must work on all custom ROM that are up to date with CM repo",
 		"url": "https://dl.dropboxusercontent.com/u/281742759/kernel/lastv/BHB27-Kernel-V200-3-M.zip",
 		"md5sum": "f887c617c4b60a38a0299687986c275a",
@@ -119,6 +119,7 @@
 			"Changelog:",
 			" V.2.0.0-3 ",
 			" Base on Moto Marshamllow Soak 4 source ",
+			" This version works on stock Soak 4 and Marshmallow CM base Custom ROM ",
 			" Check XDA for full changelog"
 		]
 	},{
