@@ -129,6 +129,9 @@
     <string name="disabled">Disabled</string>
     <string name="enabled">Enabled</string>
     <string name="aggressive">Aggressive</string>
+    <string name="disabled2">(Disabled)</string>
+    <string name="enabled2">(Enabled)</string>
+    <string name="aggressive2">(Aggressive)</string>
     <string name="cpu_quiet">CPUQuiet</string>
     <string name="cpu_quiet_summary">CPUQuiet implements pluggable policies for forcing cpu cores into quiescent state. Appropriate policies will save power without hurting performance.</string>
     <string name="cpu_quiet_governor">CPUQuiet Governor</string>
@@ -285,7 +288,7 @@
     <string name="msm_sleeper_suspend_max_online">Max Online Cores during suspend</string>
     <string name="msm_sleeper_up_count_max">Amount of time threshold needs to be exceeded before online-ing a core</string>
     <string name="msm_sleeper_down_count_max">Amount of time threshold needs to be below before offline-ing a core</string>
-	<string name="bricked_runqueue_threshold">Runqueue Threshold</string>
+    <string name="bricked_runqueue_threshold">Runqueue Threshold</string>
     <string name="bricked_nwns">Runqueue Threshold Hotplug CPU%d</string>
     <string name="bricked_nwns_hotplug">If this threshold is reached, CPU%d will be hotplugged.</string>
     <string name="bricked_nwns_unplug">If this threshold is reached, CPU%d will be unplugged.</string>
@@ -437,7 +440,7 @@
     <string name="vib_strength">Wake Gestures Vibration Strength</string>
     <string name="vib_strength_summary">This value is specific to wake gestures and independent of the normal vibration strength. It is purely for the kernel driver. Gestures controlled by third party apps will not use this value.</string>
     <string name="dt2w">DoubleTap2Wake</string>
-    <string name="dt2w_summary">Wake up your device by double tapping the screen.\n\nNote: DoubleTap2Wake when enabled will also enable Sweep2Wake, this is necessary to make DoubleTap2Wake to work on Quark.</string>
+    <string name="dt2w_summary">Wake up your device by double tapping the screen.\n\nNote: DoubleTap2Wake when (enabled or disabled) will also (enabled or disabled) Sweep2Wake, this is necessary to make DoubleTap2Wake to work on Quark.</string>
     <string name="center">Center</string>
     <string name="full">Full</string>
     <string name="bottom_half">Bottom half</string>
@@ -446,7 +449,7 @@
     <string name="fullscreen">Fullscreen</string>
     <string name="s2w_title">Sweep2Wake</string>
     <string name="s2w">Enabled</string>
-    <string name="s2w_summary">Wake up your device by swiping on the screen to any direction.\n\nNote: To disable Sweep2Wake, first disable DoubleTap2Wake then disable Sweep2Wake.</string>
+    <string name="s2w_summary">Wake up your device by swiping on the screen to any direction.\n\nNote: Disabling Sweep2Wake will disable DoubleTap2Wake if that was enable.</string>
     <string name="lenient">Sweep2Wake Leniency</string>
     <string name="lenient_summary">Only require 1st and 4th button to trigger Sweep2Wake.</string>
     <string name="s2s">Sweep2Sleep</string>
@@ -489,10 +492,10 @@
     <string name="wake_S2W_time_summary">Used to control the time that a sweep has to occur within to register as a sweep event. Default was traditionally 300ms</string>
     <string name="wake_dt2w_timebetweentaps">DoubleTap2Wake TimeOut</string>
     <string name="wake_dt2w_timebetweentaps_summary">Used to control the time that touches have to occur within to register as a DT2W event. Default was traditionally 500ms</string>
-    <string name="wake_dt2w_featherx">DoubleTap2Wake Feather (X axis)</string>
-    <string name="wake_dt2w_featherx_summary">Used to control the allowed distance between tap #1 and tap #2 along the X axis. This may help with unintentional wakes quite a bit. Default was traditionally 150.</string>
-    <string name="wake_dt2w_feathery">DoubleTap2Wake Feather (Y axis)</string>
-    <string name="wake_dt2w_feathery_summary">Used to control the allowed distance between tap #1 and tap #2 along the Y axis. This may help with unintentional wakes quite a bit. Default was traditionally 150.</string>
+    <string name="wake_dt2w_featherx">DoubleTap2Wake Feather (Horizontal axis)</string>
+    <string name="wake_dt2w_featherx_summary">Used to control the allowed distance between tap #1 and tap #2 along the Horizontal axis. This may help with unintentional wakes quite a bit. Default was traditionally 150px.</string>
+    <string name="wake_dt2w_feathery">DoubleTap2Wake Feather (Vertical axis)</string>
+    <string name="wake_dt2w_feathery_summary">Used to control the allowed distance between tap #1 and tap #2 along the Vertical axis. This may help with unintentional wakes quite a bit. Default was traditionally 150px.</string>
 
 
     <!-- Sound -->
@@ -548,7 +551,7 @@
     <string name="iorandom">Add Random</string>
     <string name="iorandom_summary">Draw entropy from spinning (rotational) storage.</string>
     <string name="ioaffitiny">RQ Affinity</string>
-    <string name="ioraffinity_summary">Try to have scheduler requests complete on the CPU core they were made from. Higher values are more aggressive.</string>
+    <string name="ioraffinity_summary">Try to have scheduler requests complete on the CPU core they were made from.</string>
 
     <!-- Kernel Samepage Merging -->
     <string name="ksm_full_scans">Full scans</string>
@@ -556,7 +559,7 @@
     <string name="ksm_pages_sharing">Pages sharing</string>
     <string name="ksm_pages_unshared">Pages unshared</string>
     <string name="ksm_pages_volatile">Pages volatile</string>
-    <string name="ksm_enable">Enable KSM (Uses UKSM if present)</string>
+    <string name="ksm_enable">Enable KSM</string>
     <string name="ksm_enable_summary">Reduces memory usage but has an impact on the CPU usage.</string>
     <string name="ksm_pages_to_scan">Pages to scan</string>
     <string name="ksm_sleep_milliseconds">Sleep between scans</string>
@@ -623,7 +626,8 @@
     <string name="se_linux">Toggle SE Linux</string>
     <string name="se_linux_summary">Current SELinux Status:</string>
     <string name="vibration_strength">Vibration Strength</string>
-    <string name="android_logger">Android logging</string>
+    <string name="android_logger">Android logging (LOGD or logcat)</string>
+    <string name="android_logger_summary">Disable android logging can save some power, but in the case of a problem there will be no logs to check, let it enabled to debug a problem.</string>
     <string name="bcl">Battery Current Limit Driver(BCL)</string>
     <string name="bcl_summary">Enable or Disable BCL completely</string>
     <string name="bcl_hotplug">Battery Current Limit Driver - Hotplugging</string>

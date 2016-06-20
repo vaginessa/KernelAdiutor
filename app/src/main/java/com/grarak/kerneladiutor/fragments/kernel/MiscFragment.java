@@ -125,6 +125,7 @@ public class MiscFragment extends RecyclerViewFragment implements PopupCardView.
     private void loggerInit() {
         mLoggerEnableCard = new SwitchCardView.DSwitchCard();
         mLoggerEnableCard.setTitle(getString(R.string.android_logger));
+        mLoggerEnableCard.setDescription(getString(R.string.android_logger_summary));
         mLoggerEnableCard.setChecked(Misc.isLoggerActive());
         mLoggerEnableCard.setOnDSwitchCardListener(this);
 
