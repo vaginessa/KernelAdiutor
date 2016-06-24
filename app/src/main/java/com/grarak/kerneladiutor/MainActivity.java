@@ -18,6 +18,7 @@ package com.grarak.kerneladiutor;
 
 import android.Manifest;
 import android.annotation.TargetApi;
+import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -104,6 +105,11 @@ import java.util.List;
 public class MainActivity extends BaseActivity implements Constants {
 
     /**
+     * Cache the context of this activity
+     */
+    public static Context context;
+
+    /**
      * Views
      */
     private Toolbar toolbar;
@@ -127,6 +133,9 @@ public class MainActivity extends BaseActivity implements Constants {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // If there is a previous activity running, kill it
+        if (context != null) ((Activity) context).finish();
+        context = this;
 
         setView();
         String password;

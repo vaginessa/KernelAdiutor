@@ -22,9 +22,6 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
-import android.support.annotation.MainThread;
-import android.support.annotation.WorkerThread;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -67,7 +64,7 @@ public class RecyclerViewFragment extends BaseFragment {
     protected StaggeredGridLayoutManager layoutManager;
     protected View backgroundView;
     protected View fabView;
-    private final Handler handler = new Handler(Looper.getMainLooper());
+    private Handler hand;
     private boolean firstOpening = true;
 
     @Override
@@ -156,6 +153,13 @@ public class RecyclerViewFragment extends BaseFragment {
             protected void onPreExecute() {
                 super.onPreExecute();
 
+                if (hand == null)
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            hand = new Handler();
+                        }
+                    });
                 adapter = new DAdapter.Adapter(new ArrayList<DAdapter.DView>());
                 try {
                     if (isAdded()) preInit(savedInstanceState);
@@ -238,15 +242,12 @@ public class RecyclerViewFragment extends BaseFragment {
         }
     }
 
-    @MainThread
     public void preInit(Bundle savedInstanceState) {
     }
 
-    @MainThread
     public void init(Bundle savedInstanceState) {
     }
 
-    @MainThread
     public void postInit(Bundle savedInstanceState) {
     }
 
@@ -417,7 +418,7 @@ public class RecyclerViewFragment extends BaseFragment {
     }
 
     public Handler getHandler() {
-        return handler;
+        return hand;
     }
 
     public boolean onRefresh() {
@@ -427,24 +428,23 @@ public class RecyclerViewFragment extends BaseFragment {
     private final Runnable run = new Runnable() {
         @Override
         public void run() {
+            if (hand != null)
                 if (isAdded() && onRefresh()) {
-                    handler.postDelayed(run, 1000);
-                } else{
-                    handler.removeCallbacks(run);
-                }
+                    hand.postDelayed(run, 1000);
+                } else if (hand != null) hand.removeCallbacks(run);
         }
     };
 
     @Override
     public void onResume() {
         super.onResume();
-        handler.post(run);
+        if (hand != null) hand.post(run);
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        handler.removeCallbacks(run);
+        if (hand != null) hand.removeCallbacks(run);
     }
 
     @Override
